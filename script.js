@@ -17,12 +17,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Photos Data
   const photos = [
-    { img: 'images/memory1.jpg', message: 'This was the first time I saw you my girl 💗 ' },
-    { img: 'images/memory2.jpg', message: 'The days we used to tease and play together ...😭 it was an initial phase but still one of the cutest ones 🐣 ' },
-    { img: 'images/memory3.jpg', message: 'The unforgettable Rakshabandhan Night ??? 🐥🌻' },
-    { img: 'images/memory4.jpg', message: ' Anushku ziiiis Editing skillls 🐮 ' },
-    { img: 'images/memory5.jpg', message: '10/10 Bihariii baddie on her farewellll ... Cutieee 💗' },
-    { img: 'images/memory6.jpg', message: 'Finally Manjhi Jayantiiii 🐮 💗' }
+    { img: 'memory1.jpg', message: 'This was the first time I saw you my girl 💗 ' },
+    { img: 'memory2.jpg', message: 'The days we used to tease and play together ...😭 it was an initial phase but still one of the cutest ones 🐣 ' },
+    { img: 'memory3.jpg', message: 'The unforgettable Rakshabandhan Night ??? 🐥🌻' },
+    { img: 'memory4.jpg', message: ' Anushku ziiiis Editing skillls 🐮 ' },
+    { img: 'memory5.jpg', message: '10/10 Bihariii baddie on her farewellll ... Cutieee 💗' },
+    { img: 'memory6.jpg', message: 'Finally Manjhi Jayantiiii 🐮 💗' }
   ];
 
   // Audio
