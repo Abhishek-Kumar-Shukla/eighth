@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Ribbon Overlay -->
+  <div class="ribbon-overlay" id="ribbonOverlay">
+    <div class="full-ribbon vertical"></div>
+    <div class="full-ribbon horizontal"></div>
+    <button class="unwrap-btn" id="unwrapBtn">Unwrap Me Ma'am !</button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content" id="mainContent">
+    <div class="background"></div>
+    
+    <div class="loading-screen" id="loader">
+      <h1>Loading Special Day...</h1>
+      <div class="progress-bar">
+        <div class="progress" id="loadBar"></div>
+      </div>
+    </div>
+
+    <button class="music-btn" id="musicToggle">🎵</button>
+
+    <main>
+      <section class="hero">
+        <h1>Happy Birthday Madam !</h1>
+        <div class="popper-container" id="popperContainer">
+          <div class="popper-circle">
+            <div class="popper">🎉</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <h2>Our Memories</h2>
+        <div class="photos" id="photoGallery"></div>
+      </section>
+
+      <section class="message">
+        <h2>For You</h2>
+        <button class="heart" id="heartBtn">❤️</button>
+        <div class="note" id="loveNote">
+          <p>My Dearest Anushka ,</p>
+          <p>You make every day livable and Since you've entered my life <br>
+            I started improving myself Thank youuu for trusting me myyy Lady <br>
+            This was a really great hurdle for us at a very initial level <br>
+            Glad that we crossed the first one ...<br>
+            I hope we'll cross all of them and end up together <br> 
+            In a marriage lawn Looking at each other's eyes <br>
+            I'll always be there for you myyy Lady <br>
+            And lastly Don't miss your medicines nd <br>
+            LOVE YOUUU MOSTTT 🐥🌻<br>
+          </p>
+          <p>Happy Birthday Prachiii ❤️ !</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <button id="closePopup">×</button>
+        <p id="popupText"></p>
+      </div>
+    </div>
+
+    <div id="effects"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
